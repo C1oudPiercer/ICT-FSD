@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <title>Login</title>
+        <link rel="icon" href="pikachu.png" type="image/icon type">
+     <script src=./signup.js></script>   
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    
+</head>
+
+<body>
+  <div style="background-image: url('./images/munnar.jpg'); background-repeat: no-repeat; background-size: 1920px 1080px;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <div class=img>
+          <img src="./images/keralatour.png" height="40" width="70"></div>
+          <p class="navbar-text"><b> The Kerala Tourism Development Corporation</b></p> 
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto ">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="anchor.html">Home</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Districts
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="ksd.html">Kasargod</a></li>
+                  <li><a class="dropdown-item" href="knr.html">Kannur</a></li>
+                  <li><a class="dropdown-item" href="wyd.html">Wayanad</a></li>
+                  <li><a class="dropdown-item" href="kzd.html">Kozhikode</a></li>
+                  <li><a class="dropdown-item" href="pkd.html">Palakkad</a></li>
+                  <li><a class="dropdown-item" href="mlp.html">Malappuram</a></li>
+                  <li><a class="dropdown-item" href="thr.html">Thrissur</a></li>
+                  <li><a class="dropdown-item" href="erk.html">Ernakulam</a></li>
+                  <li><a class="dropdown-item" href="alp.html">Alappuzha</a></li>
+                  <li><a class="dropdown-item" href="ktm.html">Kottayam</a></li>
+                  <li><a class="dropdown-item" href="idk.html">Idukki</a></li>
+                  <li><a class="dropdown-item" href="ptm.html">Pathanamthitta</a></li>
+                  <li><a class="dropdown-item" href="klm.html">Kollam</a></li>
+                  <li><a class="dropdown-item" href="tvm.html">Thiruvananthapuram</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="signup.html">Sign Up</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      <div class="float-md-left"></div>
+      <!--Form-->>
+      <div class="col-lg-8 myMargin3">
+        <form onsubmit="validate()">
+          <div class="box">
+
+          <br><h3>Login</h3><br>
+          <div class="mb-3">
+            <label class="form-label">Email address</label><br>
+            <input type="email" class="form-control" id="email" placeholder="Enter Your Email id" ><br>
+            
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Password</label>
+            <input type="password" class="form-control" id="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Remember me</label>
+          </div>
+          <button type="submit" class="btn btn-warning">Submit</button><br>
+          <br><h5>Need a New Account?</h><br>
+          <h5>><a href="./signup.html">Click Right Here!!!</a></h5>
+        </form>
+        </div>
+      </div>
+  </div>
+  <script src="./login.js"></script> 
+  <br><br>
+  <div class="footer">
+    <footer>
+        <b>Toll free No: 1-800-425-4747 (Within India only)</b><br>
+Department of Tourism, Government of Kerala, Park View, Thiruvananthapuram, Kerala, India - 695 033
+Phone: +91 471 2321132, Fax: +91 471 2322279, E-mail: info@keralatourism.org.
+All rights reserved © Kerala Tourism 2021. Copyright | Terms of Use | Cookie Policy | Contact Us.
+Developed & Maintained by Edwin Reji
+    </footer></div></div>
+      
+  </body>
+  </html>
