@@ -1,2 +1,2 @@
 # ICT-FSD
-Projects of Full Stack Development Course
+Projects of Full Stack Development Course by Edwin Reji
